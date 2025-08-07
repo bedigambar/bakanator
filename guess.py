@@ -4,7 +4,7 @@ csv_path = r"guess.csv"
 df = pd.read_csv(csv_path)
 
 def guess_object(df, csv_path):
-    print("Hello! I am Bakanator.\nThink of an object (person, animal, thing). And I will try to guess it for you.")
+    print("Hello! I am BakaNator.\nThink of an object (person, animal, thing). And I will try to guess it for you.")
     input("Press Enter when you're ready!")
 
     remaining = df.copy()
